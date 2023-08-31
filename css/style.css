@@ -1,0 +1,245 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.TextF{
+
+    color: #4D4D4D;
+
+/* Body/Regular/Body 2 */
+
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.mainColor {
+color: #4CAF4F;
+}
+
+.btn-success {
+    background-color: #4CAF4F;
+    border-radius: 6px;
+    display: flex;
+padding: 5px 10px;
+align-items: center;
+gap: 10px;
+font-size: 13px;
+}
+
+.btn-LearnMore {
+    background-color: #4CAF4F;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+.btn-LearnMore:hover{        /* button hover */
+
+ 
+    background-color: #464646;
+}
+
+.TextSiyah{
+
+    color: #4D4D4D;
+
+/* Heading/Headline 1 */
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 76px;
+}
+
+.TextYesil{
+
+    color: #4CAF4F;
+
+    /* Heading/Headline 1 */
+    font-family: sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.backgroundColor {
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+
+.siyahFont {
+
+    color: #4D4D4D;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.meetAllCustomers {
+
+    color: #4CAF4F ;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.btnMeetAllCustomers{
+
+    color: #4CAF4F ;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    position: absolute;
+    
+}
+
+.btnMeetAllCustomers:hover{
+    color: #464646;
+}
+
+
+.meetAllCustomers:hover{
+
+    color: #464646;
+}
+
+.caringIs{
+
+    color: var(--neutral-d-grey, #4D4D4D);
+    text-align: center;
+    
+    /* Heading/Headline 2 */
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+}
+
+.cardImg{
+    display: flex;
+    padding: 0.33388rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.33388rem;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    box-shadow: 0px 2.6709322929382324px 5.341864585876465px 0px rgba(171, 190, 209, 0.40);
+    transform: translate(-9%,85%);
+    margin-top: -28ch;
+    margin-left: 2.4rem;
+    position: absolute;
+}
+
+
+
+
+.btnButton{
+    background-color: #43A046 ;
+    
+  }
+
+  .btnButton:hover{    /* button hover */
+    background-color: #464646;
+  }
+
+.footerBackground{
+
+    background: var(--neutral-black, #263238);
+}
+
+
+.readmore{
+    color: #4CAF4F !important;
+    font-size: medium;
+    margin-top: 20px;
+  }
+
+  .readmore:hover{
+    background-color: #464646 !important;
+  }
+
+
+.ahover:hover{
+    color: #464646 !important;
+
+}
+ 
+
+.btn-sm:hover{
+    color: #464646 !important;
+}
+
+
+
+.carousel-item{
+    height: 32rem;
+    background: #F5F7FA;
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-color: #F5F7FA; 
+    justify-content: center;
+            
+}
+.containerCarousel{
+    position: absolute;
+    top: 3rem;
+    left: 20;
+    right: 0;
+    padding-bottom: 50px;
+    margin-top: 1rem;
+}
+
+.carouselTextBlack{
+
+    color: var(--neutral-d-grey, #4D4D4D);
+
+    
+    font-family: sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.374px; 
+}
+.carouselTextGreen{
+
+   color: var(--neutral-d-grey, #4CAF4F);
+
+
+  font-family: sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px; 
+}
+
+.display3{
+
+font-family: sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 76px;
+}
+
